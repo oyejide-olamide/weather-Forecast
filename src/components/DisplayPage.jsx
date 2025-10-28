@@ -3,13 +3,11 @@ import Asidebar from "./Asidebar.jsx";
 
 function DisplayPage({ weatherData, loading }) {
   
-  // Get current date
   const getCurrentDate = () => {
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     return new Date().toLocaleDateString(undefined, options);
   };
 
-  // Get weather icon based on API data
   const getWeatherIcon = (condition) => {
     const iconMap = {
       '01d': '/images/icon-sunny.webp',

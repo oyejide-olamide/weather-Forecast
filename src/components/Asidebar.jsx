@@ -1,7 +1,6 @@
 import React from "react";
 
 function Asidebar({ weatherData }) {
-  // Sample hourly data for demonstration
   const hourlyData = [
     {
       id: 1, 

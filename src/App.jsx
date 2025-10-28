@@ -48,7 +48,6 @@ function App() {
     }
   };
 
-  // Fetch weather when component mounts or units change
   useEffect(() => {
     fetchWeather();
   }, []);
