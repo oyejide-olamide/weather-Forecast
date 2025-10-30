@@ -4,7 +4,7 @@ import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import DisplayPage from "./components/DisplayPage"; 
 import './App.css';
-import Header from "./components/header";
+import Header from "./components/Header";
 
 function App() {
   const [city, setCity] = useState("Lagos");
