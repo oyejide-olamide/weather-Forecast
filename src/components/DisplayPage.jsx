@@ -54,7 +54,7 @@ function DisplayPage({ weatherData, loading }) {
     {
       id: 3,
       name: "Wind",
-      value: `${Math.round(weatherData.wind.speed * 3.6)}km/h` // Convert m/s to km/h
+      value: `${Math.round(weatherData.wind.speed * 3.6)}km/h` 
     },
     {
       id: 4,
